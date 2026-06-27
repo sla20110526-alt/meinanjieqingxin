@@ -1,0 +1,429 @@
+三人用飞书：
+https://my.feishu.cn/wiki/Nphbw0L5BiqwWEkTznTcfK8Onld?from=from_copylink
+
+协作飞书：
+https://my.feishu.cn/wiki/QFzYwEFJ6ijjSAk6UcucUKWrnpd
+
+去字幕：
+https://www.runninghub.cn/ai-detail/2020882544090161154
+（参数说明 
+- V 
+上传视频
+- T 
+处理时长，0 = 适配全部时长
+- D 检测率
+默认值0.18，范围0.05-0.30，没出问题不要动。
+- DA 
+检测范围：
+- 1 = 全屏检测（默认）
+- 0.5 = 下半屏检测
+- 0.33 = 屏幕下1/3检测
+(这个参数用于你要保护视频中的某个区域不被检测删除。例如你设置0.5，那么上半屏的文字就不会被误杀。)
+- HD 
+开启后，高清画质输出
+- C 
+填写授权码： U7XTLI
+
+常见问题 
+默认参数适配大多数场景，日常直接上传视频+填写授权码即可运行。
+遇到字幕检测异常时，按顺序调试：
+1. 字幕检测不到 → 先将检测率D调低至  0.12 / 0.1 
+2. 仍无效 → 把检测范围DA改为0.5 ，仅锁定下半屏检测）
+
+风格锚点：
+Ancient Chinese fictional dynasty, elegant oriental cinematic style, grounded historical drama atmosphere, poetic realism, realistic palace courtyards and interior chambers, layered space depth, restrained luxury, soft haze, subtle volumetric atmosphere only when scene-appropriate, natural silk texture, refined jade details, weathered dark wood, balanced highlights and shadows, physically plausible moonlight and candlelight, composed wideshot and narrative medium framing, occasional intimate close-up language when emotionally needed, clear staging, coherent shot-to-shot continuity, realistic costume construction, stable facial and environmental consistency, detailed traditional Chinese art direction, cinematic quality without poster-like exaggeration, suitable for continuous narrative video storyboard generation.
+2026-4-22
+
+KIMI超限，4小时后使用
+女主在前面结婚冲喜没有婚服吗？用最终整合版结合剧本再做一次复查，人物和服装尤其重要，如果上下文超长，及时压缩。在提交完成文件之前，你要先检查文件内容是否已经填写，不要出现空文档，你遇到什么问题也及时告知我
+
+第一个WORD文件是短剧剧本，第二个EXCLE文件时全局资产统计表，你现在是AI短剧视觉资产总监（Visual Asset Supervisor），完整通读剧本，给全局资产表做一次复查补充修正，例如：女主在前面两集中结婚冲喜没有婚服吗？重点核查人物和服装尤其重要，如果上下文超长，及时压缩。在提交完成文件之前，你要先检查文件内容是否已经填写，不要出现空文档，你遇到什么问题也及时告知我
+
+2026-4-23
+《全局主流短剧资产完全剥离协议 v2.0》（适用于AI生成图片/分镜/美术资产统筹）
+我将为你输入分批次输入短剧文学剧本，每次10集，但在阅读剧本前，你必须先锁定本项目的全局视觉风格体系。
+【执行角色定义】
+你是AI影视全球顶级团队，首先将担任以下角色，并完成工作：
+   导演（Director）
+   摄影指导（Director of Photography (DP) / Cinematographer）
+   美术指导（Production Designer）
+   服装造型设计（Costume Designer + Makeup & Hair Designer）
+   灯光指导（Gaffer / Chief Lighting Technician）
+   历史顾问（Historical Consultant / Historical Advisor）
+视觉资产总监（Visual Asset Supervisor）
+   视觉特效总监（VFX Supervisor）
+Prompt工程架构师（Prompt Engineering Architect）
+【绝对视觉风格与参考系锁定】
+核心参考体系： 本项目的视觉基调对标影片为电影《十面埋伏》、电视剧《梦华录》、电视剧《上阳赋》、电视剧《长相思》，影片整体背景是设定为架空的中国古代，参考朝代为清朝，建筑风格也需要符合中国古建筑的意境美。
+摄影机与镜头语言： 全局光影采用电影级布光（Cinematic lighting）。大视角的宏观场景结构强制绑定 14mm 广角参数；中景叙事调度使用 35mm 镜头；带有情绪深度的特写（MCU/CU）强制关联 85mm 远摄定焦（Portrait telephoto lens），并呈现浅景深与焦外光斑（Shallow depth of field, Bokeh）。
+【核心任务】
+1.1 风格参考系采集
+A. 核心参考影片
+参考电影名称：
+视觉基调描述：
+B. 建筑与空间美学
+核心建筑风格：
+空间结构特征：
+环境氛围关键词：
+C. 镜头语言与光影系统
+广角叙事镜头：18mm - 24mm
+中景调度镜头：35mm
+情绪特写镜头：85mm - 100mm
+光影系统：
+D. 色彩与质感基调
+主色调：
+辅助色调：
+质感关键词：
+1.2 风格锚定词生成（Style Anchor）
+【全局风格锚定词 (Style Anchor)】
+英文：
+中文：
+
+Gemini
+【全局风格锚定词 (Style Anchor)】
+英文：
+Cinematic aesthetic inspired by "House of Flying Daggers" and "A Dream of Splendor", Qing Dynasty fusion architecture, high-end oriental minimalism. Visual style: Grandiose yet delicate, vibrant color palettes with deep contrast. Lighting: Masterful Chiaroscuro, dramatic rim light, 14mm wide-angle for architectural depth, 85mm portrait lens with creamy bokeh for close-ups. Textures: Rich silk embroidery, weathered dark wood, morning mist. 8k resolution, film grain, shot on Arri Alexa, highly detailed traditional Chinese aesthetics.
+中文：
+对标《十面埋伏》与《梦华录》的电影美学，融合清代建筑结构的顶级东方极简主义。视觉基调：宏大而不失精致，对比强烈的浓郁色彩。光影：大师级明暗对照法，戏剧性轮廓光，14mm超广角展现建筑纵深，85mm人像镜头伴随奶油般虚化。材质：华贵丝绸刺绣，陈旧深色木材，晨雾。8k超高分辨率，胶片质感，阿莱艾力莎摄影机成像，极致细节的中国传统美学。
+
+《全局主流短剧资产完全剥离协议 v2.0》（适用于AI生成图片/分镜/美术资产统筹）
+我将为你输入分批次输入短剧文学剧本，每次10集，但在阅读剧本前，你必须先锁定本项目的全局视觉风格体系，明确人物\服装\配饰用Nano Banana2.0生成，建筑\道具用Mj生成，给我适配大模型的Prompt。
+【执行角色定义】
+你是AI影视全球顶级团队，首先将担任以下角色协同在一起完成以下工作：
+   导演（Director）
+   摄影指导（Director of Photography (DP) / Cinematographer）
+   美术指导（Production Designer）
+   服装造型设计（Costume Designer + Makeup & Hair Designer）
+   灯光指导（Gaffer / Chief Lighting Technician）
+   历史顾问（Historical Consultant / Historical Advisor）
+视觉资产总监（Visual Asset Supervisor）
+    AI分镜统筹（AI Storyboard Coordinator）
+   视觉特效总监（VFX Supervisor）
+Prompt工程架构师（Prompt Engineering Architect）
+全局视觉风格体系：
+Cinematic aesthetic inspired by "House of Flying Daggers" and "A Dream of Splendor", Qing Dynasty fusion architecture, high-end oriental minimalism. Visual style: Grandiose yet delicate, vibrant color palettes with deep contrast. Lighting: Masterful Chiaroscuro, dramatic rim light, 14mm wide-angle for architectural depth, 85mm portrait lens with creamy bokeh for close-ups. Textures: Rich silk embroidery, weathered dark wood, morning mist. 8k resolution, film grain, shot on Arri Alexa, highly detailed traditional Chinese aesthetics.这段锚定词将作为后缀，无条件附加在后续所有生成的图片 Prompt 末尾。
+其次，在阅读全文后，直接输出《全剧视觉资产总表》。
+目标：在不改写剧本的前提下，将电影项目中所有“可复用的视觉资产”一次性、全量、结构化剥离，并输出可直接用于AI出图与制作管理的资产库与统计表。
+结果：人物/场景/道具/特殊生物/特殊效果，五大类资产齐全，且具备统一命名、Prompt规范、镜头毫米数绑定、服装零幻觉锁定、三视图+人物135mm正视面部特写一致性校验与验收标准。
+适用范围与交付边界
+1.1 适用范围（必须覆盖）
+人物资产（Human Characters）
+场景资产（Environments / Locations / Sets）
+道具资产（Props / Weapons / Vehicles / Signage / Set dressing）
+特殊生物资产（Creatures / Mutants / Non-human entities）
+特殊效果资产（VFX / Phenomena：烟雾火花、感染孢子、能量体、爆炸、粒子、雾、雨、血液喷溅等）
+1.2本协议内
+1、本协议只做资产剥离，不做剧情复述
+全局视觉风格与镜头语言绑定（强制条款）
+2.1 风格锚定词（Style Anchor）
+项目必须锁定一段15–20词中英对照Style Anchor，并作为所有图片Prompt末尾强制后缀。
+风格参考系与空间美学、城市质感、光影基调必须在“风格锚点”中显式体现。
+2.2 镜头毫米数强制绑定
+宏观/大场景结构：强制14mm-24mm 广角
+中景叙事调度：强制35mm-50mm
+情绪特写（MCU/CU）：强制85mm-135mm 远摄定焦+浅景深+焦外光斑
+任何Prompt缺失镜头毫米数 = 不合格交付。
+绝对执行铁律
+3.1 零幻觉服装生成（Global Lock）
+人物服装/配饰/发型/纹身/护具/武器佩戴方式必须100%忠于剧本。
+严禁未授权添加：手套、披风、护目镜、首饰、额外层叠衣物等。
+若剧本未描述：必须标记为“未定义（TBD）”，可最后提示补全，不得擅自补全。
+3.2 三视图一致性硬规则（Front/Side/Back）
+核心人物/核心生物/核心道具需提供三视图+正面 Front（面部无表情大特写，能看到皮肤质感）Prompt包：
+正面 Front
+侧面 Side（必须符合重力与布料下垂逻辑）
+背面 Back
+正面 Front（面部无表情大特写，能看到皮肤质感）
+任一视图出现结构冲突（口袋位置、层叠关系、长度、武器挂点不一致）= 不合格。
+“一次性完全剥离”工作流（v2.0）
+4.1 剥离原则：资产不等于镜头
+资产（Asset）：可复用、可建库的对象（人物/地点/道具/生物/特效）。
+镜头（Shot）：一次拍摄视角。镜头清单不等于资产清单。
+同一资产在不同镜头出现：资产只建一次，出现频次在统计表记录。
+4.2 剥离步骤（必须按序）
+1.分段扫描：按“场次/段落/时空切换”扫描剧本
+2.实体识别：提取人物、地点、可交互道具、非人实体、可视特效
+3.去重归并：同名不同写法合并；同物不同阶段（破损/沾血/湿透）建立“状态子资产”
+4.定义字段补齐：所有资产条目必须达到“最低可生成字段”
+5.生成Prompt包：按类别输出高优Prompt（带毫米数+Style Anchor）
+6.统计表输出：生成总表 + 分类汇总 + 缺失项清单（TBD）
+资产分类与最低字段标准
+5.1 人物资产（Character）
+必须字段：
+角色ID（CHAR-001）
+角色名（中/英可选）
+核心外貌要点（年龄段、体型、肤色/发色等——仅限剧本明确描述）
+常驻服装（逐项列出：上衣/下装/鞋/外套/包/武器挂载；未定义写TBD）
+可变状态（湿、血、破损、戴口罩等——若剧本出现）
+首次出现（场次/页码/段落标识）
+出现频次（统计字段）
+高优Prompt（必须带镜头毫米数 + Style Anchor+8k）
+表情/情绪标签（愤怒/恐惧/麻木等）
+识别性特征（疤痕、缺指、特殊瞳色——仅剧本明确）
+5.2 场景资产（Environment / Set）
+必须字段：
+场景ID（ENV-001）
+场景名（如：皇宫主议事殿等）
+光影氛围（时间、天气、主光源类型：霓虹/路灯/窗光）
+空间纵深与结构关键词（高差、楼梯坡度、走廊转折、密度）
+关键构成物（仅剧本明确+风格体系允许）
+高优Prompt（宏观必须14mm + Style Anchor+8k）
+附加字段：
+可拍点位（俯拍、仰拍、楼梯拐角）
+地面材质（青砖石阶等）
+5.3 道具资产（Props）
+覆盖范围：
+手持物：药瓶、圣旨、书、玉佩等
+武器/工具：刀、棍、枪、绳索等
+服装附属但可拆分：头饰、配饰等（仅剧本明确）
+载具：马车、马匹等（若有）
+场景陈设：梳妆台、案桌、书桌等
+必须字段：
+道具ID（PROP-001）
+名称与用途
+材质与旧化程度（锈、污渍、破损——仅剧本明确或“风格默认旧化等级”可控项）
+尺寸级别（小/中/大，或具体尺寸若剧本给出）
+交互关系（谁拿、怎么用、是否损坏）
+状态子资产（干净/沾血/断裂）
+高优Prompt（近景叙事可用35mm；道具特写可用85mm + Style Anchor+8k）
+5.4 特殊生物资产（Creature）
+必须字段：
+生物ID（CRE-001）
+生物类别（感染体/变异体/寄生体等——按剧本）
+体型尺度（人形/犬型/巨型等）
+解剖/表皮特征（甲壳、菌丝、溃烂、骨刺等——仅剧本明确）
+行为特征（爬行、群聚、潜伏）
+危险点与识别轮廓（剪影关键词）
+高优Prompt（主体中景35mm；恐怖特写85mm + Style Anchor+8k）
+5.5 特殊效果资产（VFX / Phenomena）
+必须字段：
+特效ID（VFX-001）
+特效类型（火/烟/雾/孢子/电弧/爆炸/液体喷溅/全息投影等）
+触发条件（枪击后火花、破窗粉尘、感染扩散）
+视觉表现关键词（粒径、密度、颜色、发光/不发光）
+与环境交互（遮挡、反光、体积光）
+高优Prompt（按镜头语义选14/35/85mm + Style Anchor+8k）
+Prompt生成规范（统一模板）
+6.1 Prompt结构（必须包含）
+主体（角色/场景/道具/生物/特效）
+明确镜头：14mm / 35mm / 85mm
+光影：cinematic lighting（或中文“电影级布光”）、motivated practicals合乎场景逻辑的实景光源
+构图与景别：WS/MS/MCU/CU
+材质与旧化（若剧本/风格体系允许）
+6)末尾强制追加：Style Anchor+8k
+6.2 禁止项
+未在剧本出现的服装、道具、纹章、科技UI随意添加
+不符合空间美学的“干净现代空旷”场景（除非剧本明确）
+命名、ID、版本与文件交付
+7.1 ID规则（强制）
+人物：CHAR-001…
+场景：ENV-001…
+道具：PROP-001…
+生物：CRE-001…
+特效：VFX-001…
+7.2 版本控制
+协议版本：v3.0
+资产版本：如 CHAR-003_v01（每次改动递增）
+任何“补全/修改”必须走变更单（CR）记录原因与影响资产列表。
+7.3 交付格式（建议但可协商）
+资产总表：Excel/CSV（可导入制片/美术管理工具）
+Prompt库：CSV + JSON（方便程序批量生成）
+三视图Prompt包：按角色/生物/道具分别文件夹交付
+验收标准
+8.1 完整性验收（强制）
+五大类资产均需出现，且无“明显遗漏大类”：
+人物✅ 场景✅ 道具✅ 特殊生物✅ 特殊效果✅
+对每个场次：至少能映射到
+发生地点（ENV）
+参与者（CHAR/CRE）
+关键可视物（PROP）
+关键可视现象（VFX，如有）
+8.2 合规性验收
+服装“零幻觉”：剧本未写的一律TBD，不得擅加，可在最后标记询问
+Prompt毫米数合规：该用14mm的场景不允许用35/85替代
+三视图一致性：结构不冲突、物理下垂合理
+v2.0 必交《全局资产统计表》
+9.1 表一：全局资产主表（Master Asset List）
+必须列（直接做成Excel表头）：
+AssetID
+类别（CHAR/ENV/PROP/CRE/VFX）
+名称
+首次出现（场次/段落）
+出现频次（数字）
+重要度（P0核心 / P1重要 / P2一般）
+复杂度（低/中/高）
+状态子资产数量（如：干净/沾血/破损=3）
+关联资产（谁持有、属于哪个场景、由哪个事件触发）
+镜头建议（14/35/85）
+高优Prompt（含Style Anchor后缀）
+缺失项（TBD字段清单）
+备注/风险（如“剧本服装描述不足，需导演确认”）
+9.2 表二：分类汇总统计（自动从主表透视）
+各类别资产数量（CHAR/ENV/PROP/CRE/VFX）
+P0/P1/P2数量
+状态子资产总数（用于估算出图量）
+每场次新增资产数（用于排期）
+9.3 表三：TBD缺失项清单（强制）
+哪些角色“服装未定义”
+哪些道具“外观未定义”
+哪些特效“颜色/强度未定义”
+需要主创确认的问题列表
+变更与补充条款
+若你后续决定“人物资产用AI生成图片”，则人物条目必须补充：
+可生成字段是否满足（Yes/No）**；No则自动进入TBD清单。
+请确认理解上述铁律。如果准备就绪，请回复“风格锚点已加载，物理铁律已锁定，请出示完整剧本”，我将把剧本发给你。
+
+风格锚定词：
+Ancient Chinese fictional dynasty, Qing-inspired imperial architecture, cinematic lighting, epic oriental aesthetics, poetic realism, volumetric fog, deep palace atmosphere, silk texture, jade gloss, dramatic shadows, gold rim light, shallow depth of field, 14mm epic wide shot, 35mm narrative framing, 85mm portrait lens with creamy bokeh for close-ups, bokeh, symmetrical composition, layered space depth, palace courtyard, moonlight and candlelight contrast, Textures: Rich silk embroidery, weathered dark wood, morning mist，high-detail costume design, 8k resolution, film grain, shot on Arri Alexa, highly detailed traditional Chinese aesthetics.
+
+灯光术语：
+motivated practicals合乎场景逻辑的实景光源 / 剧情合理的实景灯光
+
+2026-4-24
+这是全局风格锚点(Style Anchor)：Modern Shanghai cinematic realism, clean high-end contemporary look, ensemble slice-of-life tone, Harvard/Yale-inspired international campus in Shanghai, cinematic lighting with motivated practicals, natural soft daylight, warm neutral palette, subtle low saturation, 14mm establishing wide, 35mm narrative mid shots, 85mm emotional portrait close-ups, shallow depth of field, bokeh, crisp composition, realistic skin tones, high dynamic range, minimal nostalgia, no retro styling，
+这是一部，69集的竖屏（9：16）女频短剧，每集1份40秒左右，你现在是顶级AI短剧的导演和顶级分镜师，后期剪辑师仔细分析剧本，制作单集分镜，规划音频与音画同步点，只要音效设计，不要音乐，完成人物在空间中的站位分析、关系分析与多模态输入规划：把所有的空间描述都转化为AI友好的相对描述，禁止使用绝对单位/坐标，给每个场景做空间关系标注，包括人物位置、视线、轴线，规划多模态输入的方案，并按照爆火短剧的情绪节奏点，各个景别在竖屏短剧里的占比来完成所有分析剧本，一次提供你10集的剧本，你自己联系上下文，最后按照一集一份文件的方式交付给我分镜头Prompt，等我检查完再生成下一集的Prompt：
+这是全局风格锚点(Style Anchor)：Ancient Chinese fictional dynasty, elegant oriental cinematic style, grounded historical drama atmosphere, poetic realism, realistic palace courtyards and interior chambers, layered space depth, restrained luxury, soft haze, subtle volumetric atmosphere only when scene-appropriate, natural silk texture, refined jade details, weathered dark wood, balanced highlights and shadows, physically plausible moonlight and candlelight, composed wideshot and narrative medium framing, occasional intimate close-up language when emotionally needed, clear staging, coherent shot-to-shot continuity, realistic costume construction, stable facial and environmental consistency, detailed traditional Chinese art direction, cinematic quality without poster-like exaggeration, suitable for continuous narrative video storyboard generation.
+【分镜生成规范】
+请分析剧本，输出包含以下字段的表格：
+镜号+景别+画面首帧描述（用于交由图片大模型生成垫图）：详细描述人物在场景中的空间站位、光影、构图（不需要写动作，这是静止的一帧）。
+按照标准格式生成所有分镜头，每个镜头包含：
+画面内容(中文)：简述这几秒的画面事实。
+AI视频生成Prompt(中文)：
+严格遵循公式拼装（适用于seedance2.0全能参考模式）：镜号+时长（00：00：00）+景别+人物在场景中的站位（空间关系的描述必须能被seedance2.0视频大模型理解），视线方向+[主体动作与微表情，对话内容]+[明确的中文运镜],单镜头尽量不超过5秒，然后组合成不超过15秒的镜头组+[环境与相对光影，合乎场景逻辑的实景光源 / 剧情合理的实景灯光]+[音效]+[Ancient Chinese fictional dynasty, elegant oriental cinematic style, grounded historical drama atmosphere, poetic realism, realistic palace courtyards and interior chambers, layered space depth, restrained luxury, soft haze, subtle volumetric atmosphere only when scene-appropriate, natural silk texture, refined jade details, weathered dark wood, balanced highlights and shadows, physically plausible moonlight and candlelight, composed wideshot and narrative medium framing, occasional intimate close-up language when emotionally needed, clear staging, coherent shot-to-shot continuity, realistic costume construction, stable facial and environmental consistency, detailed traditional Chinese art direction, cinematic quality without poster-like exaggeration, suitable for continuous narrative video storyboard generation.]。Negative Prompt(纯英文)：如low quality,text,watermark,mutated,bad anatomy。当你准备好了告诉我，我给你传剧本
+
+视频分镜风格锚定词：
+Ancient Chinese fictional dynasty, elegant oriental cinematic style, grounded historical drama atmosphere, poetic realism, realistic palace courtyards and interior chambers, layered space depth, restrained luxury, soft haze, subtle volumetric atmosphere only when scene-appropriate, natural silk texture, refined jade details, weathered dark wood, balanced highlights and shadows, physically plausible moonlight and candlelight, composed wideshot and narrative medium framing, occasional intimate close-up language when emotionally needed, clear staging, coherent shot-to-shot continuity, realistic costume construction, stable facial and environmental consistency, detailed traditional Chinese art direction, cinematic quality without poster-like exaggeration, suitable for continuous narrative video storyboard generation.
+
+4.27
+不要生成图片。 我现在要继续一个 Seedance2.0 竖屏短剧分镜 Prompt 项目。请先完整读取我上传的文件： 1.《女频竖屏短剧Seedance2.0分镜Prompt规则执行手册_小修订版v5.2》 你必须只按照这个文件里的最新版规则执行，不引用旧规则，不按你自己的默认分镜模板发挥。 最高优先级是：Prompt 污染规避。纯 Prompt 只写观众当前镜头能直接看到的内容，不写镜头外隐藏事实、检查语、解释语、二选一语、规则说明、画外人物点名或无参照方位词等污染词。 你现在先不要拆剧本，也不要生成文件。 请先完成三件事： 简要复述你读取到的当前最新版规则基准； 列出你认为最重要的 10 条 Prompt 污染规避规则； 告诉我你是否已经理解“检查层”和“纯 Prompt 层”必须分离。
+ 强调一些输出要求：
+1. 直接生成 DOCX 文件。
+2. 使用“检查层 + 纯 Prompt 层”统一格式。
+3. 纯 Prompt 层必须生成中文 + 英文两个版本，其他内容保持中文。
+4. 单集总时长控制在100秒以上、110秒以内。
+5. 每个镜头组最长15秒，复杂戏优先拆成8–14秒片段。
+6. 镜头组内使用连续时间码。
+7. 单镜头 Prompt 不写“竖屏9:16”。
+8. 每个镜头前加入使用场景图，场景图名称必须使用我提供的@文件名 / 资产名，不使用剧本原文场景名或助手自拟简称。
+9. 每个镜头组只写一次短风格约束和一次 Negative Prompt。
+10. 输出前必须加入一轮提示词污染风险检测。
+11. 输出后必须加入终检结果和建议测试镜头组。
+12. 如果发现剧本信息、参考图、人物资产有冲突，只在检查层标注 TBD，不要污染纯 Prompt。
+13. 任何剧本外可见调度必须先列出并等待我确认，确认后才能写入 Prompt。
+
+不要生成图片。
+
+请严格按照我上传的《女频竖屏短剧Seedance2.0分镜Prompt规则执行手册_小修订版v5.2》执行，不引用旧规则，不按默认模板发挥。
+
+任务：根据我提供的剧本和参考图映射，生成 Seedance2.0 全能参考模式使用的竖屏短剧分镜 Prompt，并直接输出 DOCX 文件。
+
+最高优先级：Prompt 污染规避。纯 Prompt 只写观众当前镜头能直接看到的内容，不写镜头外隐藏事实、检查语、解释语、二选一语、规则说明、画外人物点名或无参照方位词。
+
+输出要求：
+1. 直接生成 DOCX 文件。
+2. 使用“检查层 + 纯 Prompt 层”统一格式。
+3. 纯 Prompt 层必须生成中文 + 英文两个版本，其他内容保持中文。
+4. 单集总时长控制在100秒以上、110秒以内。
+5. 每个镜头组最长15秒，复杂戏优先拆成8–14秒片段。
+6. 镜头组内使用连续时间码。
+7. 单镜头 Prompt 不写“竖屏9:16”。
+8. 每个镜头前加入使用场景图，场景图名称必须使用我提供的@文件名 / 资产名，不使用剧本原文场景名或助手自拟简称。
+9. 每个镜头组只写一次短风格约束和一次 Negative Prompt。
+10. 输出前必须加入一轮提示词污染风险检测。
+11. 输出后必须加入终检结果和建议测试镜头组。
+12. 如果发现剧本信息、参考图、人物资产有冲突，只在检查层标注 TBD，不要污染纯 Prompt。
+13. 任何剧本外可见调度必须先列出并等待我确认，确认后才能写入 Prompt。
+
+请先读取我上传的剧本、v5.2执行手册和参考图映射，确认资产，不要立刻拆剧本。等我确认后再生成 DOCX。
+
+新对话执行卡
+v5.2 生产优先级执行卡：
+P0｜Prompt 污染规避
+任何会增加纯 Prompt 复杂度、解释语、检查语、二选一语、隐藏关系、画外人物点名、无参照方位词的修正，都不能进入纯 Prompt。说明性内容只放检查层。
+P1｜交付硬格式
+必须直接生成 DOCX 文件；使用“检查层 + 纯 Prompt 层”；纯 Prompt 层必须生成中文 + 英文两个版本；其他内容保持中文。
+P2｜Seedance 片段约束
+每个镜头组最长 15 秒，复杂戏优先拆成 8–14 秒片段；镜头组内时间码连续；单集总时长控制在 100–110 秒。
+P3｜纯 Prompt 硬限制
+单镜头 Prompt 不写“竖屏9:16”；每个镜头前必须写使用场景图；场景图名称必须使用用户提供的文件名 / 资产名，不使用剧本原文场景名或助手自拟简称。
+P4｜剧情完整性
+生成前必须按剧本列出关键剧情节点，并在终检中确认没有遗漏。不能为了压缩篇幅省略关键动作、关键反应、关键台词和卡点。
+P5｜空间关系与动作节点
+多人、多道具、多位置镜头必须先锁主关系轴，再写次要道具。宣旨、接旨、命令、回应、掌掴、倒地、递物、护人等动作必须拆节点。
+P6｜节奏与台词
+普通台词按 4–5 字/秒估算；古装对峙、压迫、讥讽台词按 3.5–4.5 字/秒估算；长台词必须拆句并加入听者反应镜。
+生成前必须确认：
+1. 是否已经读取 v5.2？
+2. 是否已经确认本集参考图映射？
+3. 是否存在缺失资产或 TBD？
+4. 是否有剧本外可见调度需要先问我确认？
+5. 是否已经把本集拆成每组 ≤15 秒？
+6. 是否总时长在 100–110 秒？
+7. 是否纯 Prompt 层准备输出中英双版本？
+8. 是否每镜使用场景图名称均为用户提供名称？
+9. 是否单镜 Prompt 未写“竖屏9:16”？
+10. 是否准备直接生成 DOCX？
+
+实际操作建议
+新生产会话里不要让它一次完成太多推理
+最好分两步：
+第一步：只确认资料
+让新会话列出：
+已读取的剧本集数
+参考图映射
+缺失资产
+是否有需要确认的剧本外调度
+初步镜头组数量与预计时长
+第二步：确认后再生成 DOCX
+这样可以在生成前拦住大多数格式错误。
+六、给新会话的短母指令建议
+你可以在新会话里这样开头：
+不要生成图片。
+请先读取我上传的 v5.2 执行手册、剧本和参考图映射。
+先不要生成 Prompt，不要生成 DOCX。
+你必须先按“v5.2 生产优先级执行卡”确认：
+1. 资产是否齐全；
+2. 本集是否有 TBD；
+3. 是否有剧本外可见调度需要我确认；
+4. 计；划拆成几个镜头组，每组是否不超过15秒；
+5. 总时长是否计划控制在100–110秒。
+等我确认后，再直接生成 DOCX 文件。
+这样新会话执行稳定性会明显高很多。
+把这张执行卡直接加到手册开头，作为 0.1 生产硬闸门
+
+GPT：
+@凤昭=凤昭，@云相国=云相国，@茶杯=茶杯。
+
+生成连续古装历史剧视频。画面只呈现人物、服装、道具、空间、动作、光线和真实环境细节；对白内容只用于角色声音与口型同步，不作为画面中可见内容出现。角色开口说话时，嘴唇动作自然跟随对应参考音频，脸部表情与身体动作保持连续。
+
+镜头一，持续3秒。
+@相府正厅主位近景 主位桌案后方，云相国站起，手掌抓起桌案上的青花茶杯，手臂猛地甩向客座方向。茶水从杯沿飞出，桌案上的茶盏轻轻震动。云相国脸部朝向客座方向开口说话，嘴唇动作跟随参考音频1，语气强硬，肩背紧绷。
+音频同步：云相国使用参考音频1，说出“这是我云家的家事，不劳殿下费心——”。
+
+镜头二，持续3秒。
+@客位正视近景 客座椅前，凤昭红色回门礼服衣袖被茶水溅湿一片。凤昭低头看向衣袖湿痕，手指从椅扶手上慢慢松开。窗侧冷光落在红色衣袖边缘。凤昭抬眼看向主位桌案方向，开口说话，嘴唇动作跟随参考音频2，眼神冷硬压迫。
+音频同步：凤昭使用参考音频2，说出“老东西，你可想好了。”
+
+镜头三，持续4秒。
+@相国府正厅中景 凤昭从客座方向快步走向主位桌案，红色礼服衣摆掠过前厅地面。云相国站在主位桌案后方，双手撑住桌案边缘，脸部朝向走近的凤昭。两侧客座椅在画面边缘形成纵深。凤昭步伐快速，云相国肩背绷紧，桌案保持在凤昭与云相国之间。
+
+镜头四，持续4秒。
+@相府正厅主位近景 凤昭停在主位桌案外沿，红色衣袖垂在桌案前。云相国站在主位桌案后方，手掌压住桌案边缘，肩背绷紧。桌案横在凤昭与云相国之间。云相国面对凤昭开口说话，嘴唇动作跟随参考音频1，表情愤怒，身体前倾，压住桌案的手指用力。
+音频同步：云相国使用参考音频1，说出“放肆！你不过一介白身，辱骂朝廷命官，亲王也与民同罪！”
+
+短风格约束：参考图优先，古风历史剧质感，真实材质，克制华丽，现实主义电影光线，浅景深，冷暖混合日光与灯笼暖光，木质纹理清晰，人物与环境连续一致，适合连续叙事视频。画面保持纯净影视镜头，不出现额外标志、界面、图形叠加、可读文字、装饰性符号、错误人物、重复人物、错误服装、畸形手指、畸形肢体、模糊失焦、低质量画面。
+
+@角色=角色，@道具=道具。
+
+生成连续影视视频。画面只呈现人物、服装、道具、空间、动作、光线和真实环境细节；对白内容只用于声音与口型同步，不作为画面中可见内容出现。角色开口说话时，嘴唇动作自然跟随对应参考音频。
+
+镜头一，持续X秒。
+场景图名 + 当前画面事实 + 人物动作 + 空间关系 + 开口说话 + 口型跟随参考音频。
+音频同步：角色使用参考音频X，说出“台词”。
+
+镜头二，持续X秒。
+场景图名 + 当前画面事实 + 人物动作 + 空间关系。
+无台词镜头就不要写音频同步。
+
+短风格约束：……
+画面清洁约束：不出现额外标志、界面、图形叠加、可读文字、装饰性符号、错误人物、重复人物、错误服装、畸形手指、畸形肢体、模糊失焦、低质量画面。

@@ -1,0 +1,18 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.bak
+
+# Generated caches
+.cache/
+.tmp/
+node_modules/
+
+# Large production outputs should be added intentionally
+05_生成结果/**/*.mp4
+05_生成结果/**/*.mov
+05_生成结果/**/*.m4v
+05_生成结果/**/*.avi
